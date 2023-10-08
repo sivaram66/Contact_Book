@@ -36,10 +36,12 @@ struct contact{
 	 	case 5:
 	 		delete_all_contacts();
 	 		break;
+		case 6:
+			break;
 		default:
 			printf("Ivalid Option");
 	 }
-	}while(n!=7);	
+	}while(n!=6);	
 	}
 void add(){
 	FILE *fp;
