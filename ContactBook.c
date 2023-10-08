@@ -36,6 +36,8 @@ struct contact{
 	 	case 5:
 	 		delete_all_contacts();
 	 		break;
+		default:
+			printf("Ivalid Option");
 	 }
 	}while(n!=7);	
 	}
